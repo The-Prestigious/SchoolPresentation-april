@@ -19,8 +19,8 @@ function TodoList() {
     }
   };
 
-  const deleteTodo = (idx) => {
-    setTodos(todos.filter((_, i) => i !== idx));
+  const deleteTodo = (index) => {
+    setTodos(todos.filter((todo, tall) => tall !== index));
   };
 
 return (
